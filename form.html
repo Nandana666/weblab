@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Student Registration Form</title>
+	</head>
+	<body><center><h1>Student Registration Form</h1><table border="1">
+		<form>
+			<tr><td>First Name</td><td><input type="text" name="firstname"></td></tr>
+			<tr><td>Last Name</td><td><input type="text" name="lastname"></td></tr>
+			<tr><td>Date of Birth</td><td><select name="date" id="dob">
+			  
+			  <option value="1">1</option>
+			  <option value="2">2</option>
+			  <option value="3">3</option>
+			  <option value="4">4</option>
+			  <option value="5">5</option>
+			  <option value="6">6</option>
+			  <option value="7">7</option>
+			  <option value="8">8</option>
+			  <option value="9">9</option>
+			  <option value="10">10</option>
+			  <option value="11">11</option>
+			  <option value="12">12</option>
+			  <option value="13">13</option>
+			  <option value="14">14</option>
+			  <option value="15">15</option>
+			  <option value="16">16</option>
+			  <option value="17">17</option>
+			  <option value="18">18</option>
+			  <option value="19">19</option>
+			  <option value="20">20</option>
+			  <option value="21">21</option>
+			  <option value="22">22</option>
+			  <option value="23">23</option>
+			  <option value="24">24</option>
+			  <option value="25">25</option>
+			  <option value="26">26</option>
+			  <option value="27">27</option>
+			  <option value="28">28</option>
+			  <option value="29">29</option>
+			  <option value="30">30</option>
+			  <option value="31">31</option>
+			</select>
+			<select name="date" id="dob">
+			  <option value="January">January</option>
+			  <option value="February">February</option>
+			  <option value="March">March</option>
+			  <option value="April">April</option>
+			  <option value="May">May</option>
+			  <option value="June">June</option>
+			  <option value="July">July</option>
+			  <option value="August">August</option>
+			  <option value="September">September</option>
+			  <option value="October">October</option>
+			  <option value="November">November</option>
+			  <option value="December">December</option>
+		       </select> 
+		       <select name="date" id="dob">
+			  <option value="1999">1999</option>
+			  <option value="2000">2000</option>
+			  <option value="2002">2002</option>
+			  <option value="2003">2003</option>
+			  <option value="2004">2004</option>
+			  <option value="2005">2005</option>
+			  <option value="2006">2006</option>
+			  <option value="2007">2007r</option>
+			  <option value="2008">2008</option>
+			  <option value="2009">2009</option>
+			  <option value="2010">2010</option>
+		       </select>	</td></tr>
+		       <tr><td>Email id</td><td><input type="email" name="email"></td></tr>
+		       <tr><td>Mobile Number</td><td><input type="tel" name="mobileno"  pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" max="10"></td></tr>
+		       <tr><td>Gender </td><td><input type="radio" name="gender">
+			<label for="male">Male</label>
+			<input type="radio" name="gender">
+			<label for="female">Female</label></td></tr>
+		       <tr><td>Address </td><td><textarea rows="4" cols="50" name="address"></textarea></td></tr>
+		       <tr><td>CITY </td><td><input type="text" name="city" max="30"></td></tr>
+		       <tr><td>Pin Code </td><td><input type="text" name="pincode" max="6"></td></tr>
+		       <tr><td>State </td><td><input type="text" name="state" max="30"></td></tr>
+		       <tr><td>Country</td><td> <input type="text" name="country" value="India" max="30"></td></tr>
+		       <tr><td>Hobbies</td><td> <input type="checkbox" name="hobbies">
+			<label for="drawing">Drawing</label>
+			<input type="checkbox" name="hobbies">
+			<label for="singing">Singing</label>
+			<input type="checkbox" name="hobbies">
+			<label for="dancing">Dancing</label>
+			<input type="checkbox" name="hobbies">
+			<label for="sketching">Sketching</label>
+			<input type="checkbox" name="hobbies">
+			<label for="others">Others</label>
+			<input type="text" name="hobbies">
+			<label for="others"></label></td></tr>
+		      <tr><td>Qualification </td><td><table>
+			  <tr>
+			    <th>Sl.No.</th>
+			    <th>Examination</th>
+			    <th>Board</th>
+			    <th>Percentage</th>
+			    <th>Year of passing</th>
+			  </tr>
+			  <tr>
+			    <td>1</td>
+			    <td>Class X</td>
+			    <td><input type="text" name="board"></td>
+			    <td><input type="text" name="percentage"></td>
+			    <td><input type="text" name="yearofpassing"></td>
+			  </tr>
+			  <tr>
+			    <td>2</td>
+			    <td>Class XII</td>
+			    <td><input type="text" name="board"></td>
+			    <td><input type="text" name="percentage"></td>
+			    <td><input type="text" name="yearofpassing"></td>
+			  </tr>
+			  <tr>
+			    <td>3</td>
+			    <td>Graduation</td>
+			    <td><input type="text" name="board"></td>
+			    <td><input type="text" name="percentage"></td>
+			    <td><input type="text" name="yearofpassing"></td>
+			  </tr>
+			  <tr>
+			    <td>4</td>
+			    <td>Masters</td>
+			    <td><input type="text" name="board"></td>
+			    <td><input type="text" name="percentage"></td>
+			    <td><input type="text" name="yearofpassing"></td>
+			  </tr>
+			</table> 	</td></tr>
+	            <tr><td> Courses applies for</td><td><input type="radio" name="courses">
+			<label for="mca">MCA</label>
+			<input type="radio" name="gender">
+			<label for="mtech">M.Tech</label>
+			<input type="radio" name="courses">
+			<label for="msc">M.sc</label>
+			<input type="radio" name="gender">
+			<label for="phd">Ph.D</label></td></tr>
+		     <tr><td>Type tour Password	</td><td><input type="password" name="password" max="30"></td></tr>
+		     <tr><td>Upload your Photo </td><td><input type="file" name="photo"></td></tr>
+		     <tr><td>Date of TC</td><td><input type="date" name="date"></td></tr>
+		     <tr><td colspan="3"><center><input type="submit" name="submit" value="Submit">
+		     <input type="reset" name="reset" value="Reset"></center></td></tr>
+		       
+		</form></table></center>
+	</body>
+</html>
+				

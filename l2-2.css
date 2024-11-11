@@ -1,0 +1,16 @@
+p{
+	color:red;
+	background-color:white;
+}	
+#p1{
+	color:blue;
+	background-color:yellow;
+}	
+.p2{
+	color:green;
+	background-color:red;
+}	
+*{
+	color:yellow;
+	background-color:blue;
+}	
