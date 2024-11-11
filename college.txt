@@ -1,0 +1,17 @@
+<html>
+	<head>
+		<title>College Webpage</title>
+	</head>
+	<body>
+		<h1 style="text-align:center;color:blue">Rajiv Gandhi Institute of Technology</h1>
+		<marquee style="color:green">Be a center of technological excellence for the betterment of society...mission to impact</marquee>
+		<h2 style="bachground-color:red;color:white">About Us...</h2>
+		<center><img src=clg.jpg height=300px width=1000px></center>
+		<p>Rajiv Gandhi Institute of Technology, named after the late Prime Minister Sri Rajiv Gandhi, run by the Government of Kerala, started functioning in 1991. It has established a vast infrastructure and put together a team of dedicated teachers. The institution has become one of the leading technical Institutes in Kerala. </p>
+		<h2 style="background-color:red;color:white">Courses Offered...</h2>
+		<p>All courses offered by RIT are affiliated to APJ Abdul Kalam Technological University and approved by the All India Council for Technical Education (AICTE). The B. Tech programmes are of 8 semester (4 year) duration. The B. Arch programme is of 10 semester (5 year) duration. The M. Tech programmes are of 4 semester (2 year) duration, and the MCA programme is of 4 semester (2 year) duration.</p>
+		<h2 style="background-color:red;color:white">Contact Us...</h2>
+		<h3 style="color:blue">Address for Communication</h3>
+		<p>Velloor PO<br>Pampady<br>Kottayam-686501,Kerala State.<br><a href="https://www.rit.ac.in">Official Website</a></p>
+	</body>
+</html>		

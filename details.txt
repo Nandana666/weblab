@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Item List</title>
+	</head>
+	<body>
+		<h1>Select an item to view details</h1>
+	</body>
+</html>			
