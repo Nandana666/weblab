@@ -7,6 +7,10 @@ function validateform()
   const phone=document.getElementById("phone").value;
   const pincode=document.getElementById("pincode").value;
   
+  const order1=document.getElementById("order1").value;
+  const order2=document.getElementById("order2").value;
+  const order3=document.getElementById("order3").value;
+  
   const name1_error=document.getElementById("name1error");
   const name2_error=document.getElementById("name2error");
   const email_error=document.getElementById("emailerror");
@@ -14,12 +18,20 @@ function validateform()
   const phone_error=document.getElementById("phoneerror");
   const pincode_error=document.getElementById("pincodeerror");
   
+  const order1_error=document.getElementById("order1error");
+  const order2_error=document.getElementById("order2error");
+  const order3_error=document.getElementById("order3error");
+  
   name1_error.textContent=" ";
   name2_error.textContent=" ";
   email_error.textContent=" ";
   password_error.textContent=" ";
   phone_error.textContent=" ";
   pincode_error.textContent=" ";
+  
+  order1_error.textContent=" ";
+  order2_error.textContent=" ";
+  order3_error.textContent=" ";
   
   let isValid = true;
   
@@ -58,6 +70,12 @@ function validateform()
     pincode_error.textContent="re-enter";
     isValid = false;
   }
+  
+  if(order1 === "" && order2 ==="" && order3 === "")
+  {
+    alert("atleast one");
+  }
+  
   
   return isValid;
 }
