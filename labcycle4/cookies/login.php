@@ -26,7 +26,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         setcookie('student_id', $row['id'], time() + (86400 * 30), "/");  // Cookie for 30 days
 
         // Redirect to the dashboard page
-        header("Location: dashboard2.php");
+        header("Location: dashboard.php");
         exit();
     } else {
         echo "No user found with that email.";
@@ -44,7 +44,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 </head>
 <body>
     <h2>Login</h2>
-    <form method="POST" action="login2.php">
+    <form method="POST" action="login.php">
         <label for="email">Email:</label><br>
         <input type="email" id="email" name="email" required><br><br>
 
