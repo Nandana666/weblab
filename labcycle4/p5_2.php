@@ -1,6 +1,7 @@
 <html>
 	<head>
 		<title>PHP5.2</title>
+	</head>	
 	<body>
 		<form action="" method="POST">
 			Email:<input type="text" name="email"><br><br>
